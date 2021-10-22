@@ -294,11 +294,11 @@ if __name__ == '__main__':
                 linesFilter()
                 for indd,line in enumerate(lines):
                     print(indd, "len of line", len(line))
-                input("test linesFilter")
+                # input("test linesFilter")
                 linesCompose()
                 for indd,line in enumerate(lines):
                     print(indd, "len of line", len(line))
-                input("test lineCompose")
+                # input("test lineCompose")
                 skins = doodle.buildskin(lines, colors, cirRads, nodes)
 
                 # doodle.debug(skins,np.ones((height, width, 3)) * 255, 1)

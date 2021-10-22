@@ -197,6 +197,7 @@ def main():
     skins = []
 
     fourcc = cv2.VideoWriter_fourcc(*'mp4v')
+    os.makedirs('res', exist_ok=True)
     out = cv2.VideoWriter("res/"+str(comlines)+"doodle"+videoStream, fourcc, fps, (width*2, height))
     print("origin", width, height)
 
@@ -248,11 +249,11 @@ def main():
                 linesFilter()
                 for indd,line in enumerate(lines):
                     print(indd, "len of line", len(line))
-                input("test linesFilter")
+                # input("test linesFilter")
                 linesCompose()
                 for indd,line in enumerate(lines):
                     print(indd, "len of line", len(line))
-                input("test lineCompose")
+                # input("test lineCompose")
                 skins = doodle.buildskin(lines, colors, cirRads, nodes)
 
                 # doodle.debug(skins,np.ones((height, width, 3)) * 255, 1)
