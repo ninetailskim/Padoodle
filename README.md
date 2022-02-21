@@ -2,6 +2,8 @@
 
 ![](https://ai-studio-static-online.cdn.bcebos.com/e9240dc452104c049c8c2df737d1d3c31bf9118fed644a98b18da5ba89c8f7dc)
 # Padoodle: 使用人体关键点检测让涂鸦小人动起来   
+PaddleDetection 链接：[https://github.com/PaddlePaddle/PaddleDetection](https://github.com/PaddlePaddle/PaddleDetection)   
+PaddleHub链接：[https://github.com/PaddlePaddle/PaddleHub](https://github.com/PaddlePaddle/PaddleHub)   
 大家好我是桨师磊giegie,今天给大家带来一个pose相关的小项目，就是如何让涂鸦跟着我动起来。   
 其实，这个任务可以分为两个部分：   
 第一部分获取人的pose信息      
